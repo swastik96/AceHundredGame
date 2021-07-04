@@ -29,6 +29,8 @@ const initializeGame = function(){
     player1NameElement.textContent = player1;
     player2NameElement.textContent = player2;
     diceViewElement.classList.add('hidden');
+    currentScore1Element.textContent = 0;
+    currentScore2Element.textContent = 0;
     document.querySelector(`.player--0`).classList.add('player--active');
     document.querySelector(`.player--1`).classList.remove('player--active');
     document.querySelector(`.player--0`).classList.remove('player--winner');
